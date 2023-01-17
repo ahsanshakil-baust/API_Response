@@ -12,7 +12,7 @@ app.use(express.json());
 
 const upload = multer({ storage: multer.memoryStorage() });
 
-// create Random String
+// create Random String with create random
 const createRandomString = (strlength) => {
     let length = strlength;
     length = typeof strlength === "number" && strlength > 0 ? strlength : false;

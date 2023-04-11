@@ -7,6 +7,8 @@ const auth = require("./auth");
 const multer = require("multer");
 const bcrypt = require("bcryptjs");
 
+const newName="Ahsan";
+
 const api="www.google.com"
 
 app.use(express.urlencoded({ extended: true }));

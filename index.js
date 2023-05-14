@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const auth = require("./auth");
 const multer = require("multer");
 const bcrypt = require("bcryptjs");
-const name="Ahsan";
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 

@@ -7,6 +7,8 @@ const auth = require("./auth");
 const multer = require("multer");
 const bcrypt = require("bcryptjs");
 
+const api="app";
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
